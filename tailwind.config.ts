@@ -49,12 +49,15 @@ export default {
         },
       },
       backgroundImage: {
-        'gradient-vibrant': 'var(--gradient-vibrant)',
-        'gradient-subtle': 'var(--gradient-subtle)',
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-secondary': 'var(--gradient-secondary)',
+        'gradient-accent': 'var(--gradient-accent)',
+        'gradient-mesh': 'var(--gradient-mesh)',
       },
       boxShadow: {
-        'glass': 'var(--shadow-md)',
-        'glow': 'var(--shadow-glow)',
+        'neon': 'var(--shadow-neon)',
+        'card': 'var(--shadow-card)',
+        'intense': 'var(--shadow-intense)',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
@@ -85,14 +88,25 @@ export default {
           from: { opacity: "0", transform: "scale(0.95)" },
           to: { opacity: "1", transform: "scale(1)" },
         },
-        "blob": {
-          "0%, 100%": { transform: "translate(0, 0) scale(1)" },
-          "33%": { transform: "translate(30px, -50px) scale(1.1)" },
-          "66%": { transform: "translate(-20px, 20px) scale(0.9)" },
+        "float": {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+        "glow": {
+          "0%, 100%": { opacity: "0.5" },
+          "50%": { opacity: "1" },
         },
         "shimmer": {
           "0%": { backgroundPosition: "-200% 0" },
           "100%": { backgroundPosition: "200% 0" },
+        },
+        "pulse-glow": {
+          "0%, 100%": { boxShadow: "0 0 20px hsl(280 100% 70% / 0.3)" },
+          "50%": { boxShadow: "0 0 40px hsl(280 100% 70% / 0.6), 0 0 60px hsl(330 100% 60% / 0.4)" },
+        },
+        "spin-slow": {
+          from: { transform: "rotate(0deg)" },
+          to: { transform: "rotate(360deg)" },
         },
       },
       animation: {
@@ -101,8 +115,11 @@ export default {
         "fade-up": "fade-up 0.6s ease-out",
         "fade-in": "fade-in 0.4s ease-out",
         "scale-in": "scale-in 0.4s ease-out",
-        "blob": "blob 20s ease-in-out infinite",
+        "float": "float 6s ease-in-out infinite",
+        "glow": "glow 3s ease-in-out infinite",
         "shimmer": "shimmer 3s linear infinite",
+        "pulse-glow": "pulse-glow 3s ease-in-out infinite",
+        "spin-slow": "spin-slow 20s linear infinite",
       },
     },
   },

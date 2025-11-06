@@ -1,5 +1,6 @@
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
+import { Stats } from "@/components/Stats";
 import { Skills } from "@/components/Skills";
 import { Experience } from "@/components/Experience";
 import { Projects } from "@/components/Projects";
@@ -10,8 +11,9 @@ import { StickyWhatsApp } from "@/components/StickyWhatsApp";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-background">
       <Hero />
+      <Stats />
       <About />
       <Skills />
       <Experience />
@@ -21,7 +23,7 @@ const Index = () => {
       <Contact />
       <StickyWhatsApp />
       
-      <footer className="py-8 px-4 text-center text-sm text-muted-foreground border-t">
+      <footer className="py-8 px-4 text-center text-sm text-muted-foreground border-t border-primary/10">
         <p>© {new Date().getFullYear()} Atif Qadeer. All rights reserved.</p>
       </footer>
     </div>
