@@ -17,38 +17,38 @@ All colors MUST be HSL.
     --popover: 240 8% 8%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 280 100% 70%;
+    --primary: 217 91% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 195 100% 60%;
-    --secondary-foreground: 240 10% 4%;
+    --secondary: 199 89% 48%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 240 8% 15%;
-    --muted-foreground: 240 5% 65%;
+    --muted: 215 20% 15%;
+    --muted-foreground: 215 10% 65%;
 
-    --accent: 330 100% 60%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 204 94% 94%;
+    --accent-foreground: 217 91% 60%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 240 8% 15%;
     --input: 240 8% 15%;
-    --ring: 280 100% 70%;
+    --ring: 217 91% 60%;
 
     --radius: 1rem;
     
-    /* Modern vibrant gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(280 100% 70%), hsl(330 100% 60%));
-    --gradient-secondary: linear-gradient(135deg, hsl(195 100% 60%), hsl(280 100% 70%));
-    --gradient-accent: linear-gradient(135deg, hsl(330 100% 60%), hsl(15 100% 60%));
-    --gradient-mesh: radial-gradient(at 0% 0%, hsl(280 100% 70% / 0.3) 0, transparent 50%),
-                     radial-gradient(at 100% 0%, hsl(195 100% 60% / 0.2) 0, transparent 50%),
-                     radial-gradient(at 100% 100%, hsl(330 100% 60% / 0.3) 0, transparent 50%),
-                     radial-gradient(at 0% 100%, hsl(280 100% 70% / 0.2) 0, transparent 50%);
-    
-    /* Modern shadows with glow */
-    --shadow-neon: 0 0 30px hsl(280 100% 70% / 0.5), 0 0 60px hsl(280 100% 70% / 0.3);
+    /* Premium blue gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(199 89% 48%));
+    --gradient-secondary: linear-gradient(135deg, hsl(199 89% 48%), hsl(217 91% 70%));
+    --gradient-accent: linear-gradient(135deg, hsl(217 91% 60%), hsl(210 100% 45%));
+    --gradient-mesh: radial-gradient(at 0% 0%, hsl(217 91% 60% / 0.15) 0, transparent 50%),
+                     radial-gradient(at 100% 0%, hsl(199 89% 48% / 0.1) 0, transparent 50%),
+                     radial-gradient(at 100% 100%, hsl(217 91% 70% / 0.15) 0, transparent 50%),
+                     radial-gradient(at 0% 100%, hsl(210 100% 45% / 0.1) 0, transparent 50%);
+
+    /* Premium blue shadows with glow */
+    --shadow-neon: 0 0 30px hsl(217 91% 60% / 0.4), 0 0 60px hsl(217 91% 60% / 0.2);
     --shadow-card: 0 8px 32px hsla(0, 0%, 0%, 0.4);
     --shadow-intense: 0 20px 60px hsla(0, 0%, 0%, 0.6);
 

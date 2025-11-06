@@ -4,10 +4,10 @@ import { useRef, useEffect, useState } from "react";
 import { TrendingUp, Users, Target, Zap } from "lucide-react";
 
 const stats = [
-  { icon: TrendingUp, value: 5, suffix: "+", label: "Years Experience", color: "from-purple-500 to-pink-500" },
+  { icon: TrendingUp, value: 5, suffix: "+", label: "Years Experience", color: "from-blue-500 to-cyan-500" },
   { icon: Users, value: 50, suffix: "+", label: "Successful Campaigns", color: "from-cyan-500 to-blue-500" },
-  { icon: Target, value: 32, suffix: "%", label: "Avg CPL Reduction", color: "from-orange-500 to-pink-500" },
-  { icon: Zap, value: 100, suffix: "%", label: "Result Focused", color: "from-blue-500 to-purple-500" },
+  { icon: Target, value: 32, suffix: "%", label: "Avg CPL Reduction", color: "from-blue-600 to-blue-400" },
+  { icon: Zap, value: 100, suffix: "%", label: "Result Focused", color: "from-blue-500 to-cyan-600" },
 ];
 
 const CountUp = ({ end, suffix, inView }: { end: number; suffix: string; inView: boolean }) => {

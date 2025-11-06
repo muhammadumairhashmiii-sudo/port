@@ -7,7 +7,7 @@ const projects = [
     company: "Prime Homes",
     description: "FB/IG acquisition + landing page + lead nurture with CPL optimization.",
     impact: "32% CPL Reduction",
-    color: "from-purple-500 to-pink-500",
+    color: "from-blue-500 to-cyan-500",
   },
   {
     title: "Property Portal Campaigns",
@@ -21,7 +21,7 @@ const projects = [
     company: "Al-Khair Gadoon",
     description: "SEO + Paid campaigns improving traffic and conversion.",
     impact: "Increased ROAS",
-    color: "from-orange-500 to-pink-500",
+    color: "from-blue-600 to-blue-400",
   },
 ];
 
